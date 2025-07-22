@@ -16,7 +16,7 @@ const data = [
         english: 35,
         computer: 30, 
     },
-
+                     
     {
         roll: "3",
         name: "Shivansh",
@@ -47,4 +47,4 @@ const data = [
 data.map((item) => {
     let marks = item.computer + item.english + item.science + item.maths;
     console.log('Roll ${item.roll} : ${marks}');
-});
+});                                                             
